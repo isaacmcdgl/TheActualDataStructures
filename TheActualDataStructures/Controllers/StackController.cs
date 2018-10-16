@@ -9,14 +9,11 @@ namespace TheActualDataStructures.Controllers
 {
     public class StackController : Controller
     {
-
         static Stack <string>myStack = new Stack<string>();
 
         // GET: Stack
         public ActionResult Index()
         {
-
-
             return View();
         }
 
@@ -88,10 +85,6 @@ namespace TheActualDataStructures.Controllers
             TimeSpan ts = sw.Elapsed;
 
             ViewBag.StackStatus += " in " + ts + " seconds.";
-            
-            
-
-
 
             return View("Index");
         }

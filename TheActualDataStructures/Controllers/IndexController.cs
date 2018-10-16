@@ -13,5 +13,10 @@ namespace TheActualDataStructures.Controllers
         {
             return View();
         }
+
+        public ActionResult Exit()
+        {
+            return Redirect("https://www.byu.edu");
+        }
     }
 }
